@@ -1,0 +1,11 @@
+framework module ArunFM {
+  umbrella header "ArunFM.h"
+  export *
+
+  module * { export * }
+}
+
+module ArunFM.Swift {
+  header "ArunFM-Swift.h"
+  requires objc
+}
